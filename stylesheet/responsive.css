@@ -116,31 +116,13 @@
      left: 550px;
      top: 1480px;
  }
- .box-7{
-     position: absolute;
-     width: 310px;
-     height: 414.21px;
-     left: 140px;
-     top: 2100px;
- }
- .box-8{
-     position: absolute;
-     width: 310px;
-     height: 414.21px;
-     left: 140px;
-     top: 2100px;
- }
- .box-9{
-     position: absolute;
-     width: 310px;
-     height: 414.21px;
-     left: 140px;
-     top: 2100px;
- }
  /* footer */
  
  footer{
      width: 100%;
+    position: relative;
+    top: 2000px;
+    height: 500px;
  }
  .footer{
      text-align: center;
@@ -172,5 +154,82 @@
 .text p{
   padding: 5px;
 }
+.icon-end a i{
+    padding-right: 25px;
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+
+
+
+
+
+
+
+
 
  }
+
+/* For Mobile */
+@media screen and (max-width: 480px){
+
+    .header-section{
+        position: relative;
+        width: 675px;
+        height: 887px;
+
+     }
+    .header-text{
+        text-align: center;
+        position: absolute;
+        width: 258px;
+        height: 178px;
+        left: 180px;
+        top: 72px;
+        
+    }
+    .header-image img{
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 500px;
+        top: 695px;
+    }
+
+
+
+
+
+
+
+
+
+     /* .header-text h1{
+      font-size: 40px;
+      line-height: 50px;
+     }
+  
+     .header-text{
+      position: absolute;
+      width: 316px;
+      height: 276px;
+      top: 12px;
+      left: 55px;
+     
+    }
+    .header-image img{
+      width: 323px;
+      height: 340px;
+      position: relative;
+      top: 218px;
+    }
+    .header-image{
+      position: absolute;
+      top: -10em;
+      left: -20em;
+    } */
+  
+}
+ 
