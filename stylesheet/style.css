@@ -209,6 +209,7 @@ top: 33px;
 
 }
 
+
 /* body-end */
 
 /* Footer-start */
@@ -259,4 +260,163 @@ footer{
 }
 .text p{
     padding-right: 40px;
+}
+
+/* Responsive */
+
+
+
+@media screen and (max-width: 734px) {
+   .header-section{
+    width: 734px;
+    height: 398px;
+   }
+   .header-text h1{
+    font-size: 40px;
+    line-height: 50px;
+   }
+
+   .header-text{
+    position: absolute;
+    width: 316px;
+    height: 276px;
+    top: 12px;
+    left: 55px;
+   
+  }
+  .header-image img{
+    width: 323px;
+    height: 340px;
+    position: relative;
+    top: 218px;
+  }
+  .header-image{
+    position: absolute;
+    top: -10em;
+    left: -20em;
+  }
+
+
+  /* side-menu */
+  #ok{
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 20px;
+    top: -330px;
+    color: #000;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    padding-top: 35px;
+    
+  }
+  #one{
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 250px;
+    top: -330px;
+    color: #000;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    padding-top: 35px;
+  }
+  #two{
+    position: absolute;
+    width: 110px;
+    height: 44px;
+    left: 480px;
+    top: -330px;
+    color: rgb(8, 3, 3);
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    padding-top: 35px;
+    background-color: #fff;
+  }
+  
+   .side-menu{
+     background-color: #fff;
+
+   }
+
+   .blog-site{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+   /* box */
+   .box-1{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 140px;
+    top: 612px;
+}
+.box-2{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 550px;
+    top: 612px;
+}
+.box-3{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 140px;
+    top: 1046px;
+}
+.box-4{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 550px;
+    top: 1046px;
+}
+.box-5{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 140px;
+    top: 1480px;
+}
+.box-6{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 550px;
+    top: 1480px;
+}
+.box-7{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 140px;
+    top: 2100px;
+}
+.box-8{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 140px;
+    top: 2100px;
+}
+.box-9{
+    position: absolute;
+    width: 310px;
+    height: 414.21px;
+    left: 140px;
+    top: 2100px;
+}
+/* footer */
+
+footer{
+    width: 834px;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-size: 40px;
+    color: #fff;
+}
+
+
 }
