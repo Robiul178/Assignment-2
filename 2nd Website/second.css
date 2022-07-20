@@ -246,3 +246,12 @@ footer{
 .flag{
     display: flex;
 }
+
+.icon-end a i{
+    font-size: 20px;
+    color: #fff;
+    padding-right: 25px;
+    position: relative;
+    top: 190px;
+    left: 45%;
+}
