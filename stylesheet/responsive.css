@@ -1,5 +1,6 @@
 @media screen and (max-width: 734px) {
     .header-section{
+       
      width: 734px;
      height: 398px;
     }
@@ -27,9 +28,14 @@
      top: -10em;
      left: -20em;
    }
- 
+   .button-11{
+    visibility: visible;
+    position: absolute;
+    top: 1950px;
+   }
  
    /* side-menu */
+  
    #ok{
      position: absolute;
      width: 200px;
@@ -65,7 +71,7 @@
    
     .side-menu{
       background-color: #fff;
- 
+    
     }
  
     .blog-site{
@@ -119,7 +125,8 @@
  /* footer */
  
  footer{
-     width: 100%;
+    
+    width: 100%;
     position: relative;
     top: 2000px;
     height: 500px;
@@ -176,10 +183,10 @@
 @media screen and (max-width: 480px){
 
     .header-section{
+        overflow: hidden;
         position: relative;
         width: 675px;
         height: 887px;
-
      }
     .header-text{
         text-align: center;
@@ -190,6 +197,7 @@
         top: 72px;
         
     }
+    
     .header-image img{
         position: absolute;
         width: 350px;
@@ -198,6 +206,7 @@
         top: 695px;
     }
     .side-menu ul{
+        vertical-align: bottom;
         position: absolute;
         left: -15px;
         top: -250px;
@@ -208,8 +217,14 @@
         color: #fff;
     }
     footer{
+        /* overflow: hidden; */
         width: 52em;
     }
+
+    .button-11{
+        visibility: hidden;
+       }
+     
 
 
 

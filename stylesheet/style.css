@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow: hidden;
     position: absolute;
     width: 1300px;
     height: 646px;
@@ -206,6 +206,21 @@ top: 33px;
     padding: 10px 5px;
     border-radius: 5px;
     
+
+}
+.button-11 button{
+    text-decoration: none;
+    padding: 15px 50px;
+    background-color: #DD0000;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button-11{
+    position: absolute;
+    left: 50%;
+    top: 1644.21px;
+    visibility: hidden;
 
 }
 
