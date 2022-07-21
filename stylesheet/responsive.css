@@ -197,39 +197,25 @@
         left: 500px;
         top: 695px;
     }
-
-
-
-
-
-
-
-
-
-     /* .header-text h1{
-      font-size: 40px;
-      line-height: 50px;
-     }
-  
-     .header-text{
-      position: absolute;
-      width: 316px;
-      height: 276px;
-      top: 12px;
-      left: 55px;
-     
+    .side-menu ul{
+        position: absolute;
+        left: -15px;
+        top: -250px;
+    
     }
-    .header-image img{
-      width: 323px;
-      height: 340px;
-      position: relative;
-      top: 218px;
+    #two{
+        background-color: #DD0000;
+        color: #fff;
     }
-    .header-image{
-      position: absolute;
-      top: -10em;
-      left: -20em;
-    } */
+    footer{
+        width: 52em;
+    }
+
+
+
+
+
+
   
 }
  
